@@ -19,23 +19,45 @@
     <body>
 
         <div class="row">
-            <div class="image-container"><img src="img/A2-t1.png" height="200" width="200"/></div>
-            <div class="image-container"><img src="img/A2-t2.png" height="200" width="200"/></div>
-            <div class="image-container"><img src="img/A2-t3.png" height="200" width="200"/></div>
+            <div class="image-container"><img id="tram" src="img/A2-t1.png" height="200" width="200"/></div>
+            <div class="image-container"><img id="kangroo" src="img/A2-t2.png" height="200" width="200"/></div>
+            <div class="image-container"><img id="colorpeople "src="img/A2-t3.png" height="200" width="200"/></div>
         </div>
 
         <div class="row">
-            <div class="image-container"><img src="img/A2-t4.png" height="200" width="200"/></div>
-            <div class="image-container"><img src="img/A2-t5.png" height="200" width="200"/></div>
-            <div class="image-container"><img src="img/A2-t6.png" height="200" width="200"/></div>
+            <div class="image-container"><img id="visa" src="img/A2-t4.png" height="200" width="200"/></div>
+            <div class="image-container"><img id="coffee"src="img/A2-t5.png" height="200" width="200"/></div>
+            <div class="image-container"><img id="bag"src="img/A2-t6.png" height="200" width="200"/></div>
             </div>
 
         <div class="row">
-            <div class="image-container"><img src="img/A2-t7.png" height="200" width="200"/></div>
-            <div class="image-container"><img src="img/A2-t8.png" height="200" width="200"/></div>
-            <div class="image-container"><img src="img/A2-t9.png" height="200" width="200"/></div>
+            <div class="image-container"><img id="opentime"src="img/A2-t7.png" height="200" width="200"/></div>
+            <div class="image-container"><img id="kangroo2"src="img/A2-t8.png" height="200" width="200"/></div>
+            <div class="image-container"><img id="city"src="img/A2-t9.png" height="200" width="200"/></div>
         </div>
         
     </body>
     
 </html>
+
+<script>
+
+const fountain_sound = document.createElement ("audio")
+fountain_sound.src = 'sound/fountain.wav'
+
+const tram = document.getElementById ('tram')
+tram.onpointerdown = () => {
+    fountain_sound.play ()
+}
+
+
+
+
+
+
+
+</script>
+
+
+
+
